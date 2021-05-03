@@ -169,7 +169,7 @@ jobs:
         id: self
         uses: ./
         with:
-          location: deinopon
+          location: ralf-it
           org_visibility: ''
           name: CREATE_GITHUB_SECRET_ACTION_TEST
           value: ${{ github.sha }}
