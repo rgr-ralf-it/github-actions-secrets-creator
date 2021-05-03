@@ -80,7 +80,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     env:
-      FOREIGN_REPO: gliech/dotfiles
+      FOREIGN_REPO: jon-grey/dotfiles
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
