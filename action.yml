@@ -1,4 +1,4 @@
-name: Create GitHub Secret Action
+name: GitHub Actions Secrets Creator
 description: Create or update a secret in the GitHub Actions API.
 inputs:
   name:
@@ -28,5 +28,5 @@ runs:
   using: "node12"
   main: "dist/index.js"
 branding:
-  color: yellow
-  icon: eye-off
+  color: blue
+  icon: box
