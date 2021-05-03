@@ -75,6 +75,8 @@ async function run() {
       204: "updated"
     }
 
+    core.info(`Received status: ${status}'`)
+    
     if (status in response_codes) {
       core.info(
         `Successfully ${response_codes[status]} secret '${input_name}' in ` +
