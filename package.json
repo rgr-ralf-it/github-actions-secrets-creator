@@ -1,5 +1,5 @@
 {
-  "name": "create-github-secret-action",
+  "name": "github-actions-secrets-creator",
   "version": "1.4.4",
   "private": "true",
   "description": "Create or update a Github Secret",
@@ -10,9 +10,9 @@
     "release-test": "semantic-release --no-ci --dry-run"
   },
   "keywords": [],
-  "author": "gliech",
+  "author": "jon-grey",
   "license": "MIT",
-  "repository": "github:gliech/create-github-secret-action",
+  "repository": "github:jon-grey/github-actions-secrets-creator",
   "devDependencies": {
     "@google/semantic-release-replace-plugin": "^1.0.2",
     "@semantic-release/changelog": "^5.0.1",
