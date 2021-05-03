@@ -1,4 +1,6 @@
-# Create GitHub Secret Action
+# GitHub Actions Secrets Creator
+
+This is good project I have used to learn more about: Github Actions, tokens, secrets, GitOps, Github Marketplace.
 
 ![release](https://github.com/jon-grey/github-actions-secrets-creator/workflows/release/badge.svg)
 
@@ -64,7 +66,8 @@ organization secrets.
 > personal access token][1]. The GitHub Secrets API requires the `repo` scope to
 > modify secrets in private repositories and the `public_repo` scope for public
 > repositories. It requires `admin:org` scope to modify secrets in an
-> organization.
+> organization. Save token ie PA_TOKEN and its value as secret PA_TOKEN value
+> in repo.
 
 #### `org_visibility`
 Only used for organization secrets. Can be set to one of 3 values:
