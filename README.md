@@ -1,6 +1,6 @@
 # Create GitHub Secret Action
 
-![release](https://github.com/gliech/create-github-secret-action/workflows/release/badge.svg)
+![release](https://github.com/jon-grey/github-actions-secrets-creator/workflows/release/badge.svg)
 
 This action can create or update secrets in the GitHub Actions API. It supports
 both repository and organization secrets in a unified input syntax.
@@ -11,7 +11,7 @@ Basic example (creates a secret in the repository where the workflow file is
 located):
 ```yaml
 steps:
-  - uses: gliech/create-github-secret-action@v1
+  - uses: jon-grey/github-actions-secrets-creator@v1
     with:
       name: FRONT_DOOR_PASSWORD
       value: Eternia
@@ -21,7 +21,7 @@ steps:
 Create a secret in a different repository:
 ```yaml
 steps:
-  - uses: gliech/create-github-secret-action@v1
+  - uses: jon-grey/github-actions-secrets-creator@v1
     with:
       location: horde-prime/spire-network
       name: BROADCAST_FREQUENCY
@@ -32,7 +32,7 @@ steps:
 Create a secret in an organization:
 ```yaml
 steps:
-  - uses: gliech/create-github-secret-action@v1
+  - uses: jon-grey/github-actions-secrets-creator@v1
     with:
       location: united-states-air-force
       name: NUCLEAR_LAUNCH_CODES
